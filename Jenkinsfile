@@ -1,11 +1,22 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('run') {
             steps {
-                echo 'Welcome to TechPro Education IT Bootcamp Devops course!!!'
-                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+                echo 'Techpro_Way to Reinvent Yourself'
+                sh 'python3 --version'
+                sh 'python3 pipeline.py'
             }
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
