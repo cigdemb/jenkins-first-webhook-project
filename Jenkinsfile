@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Techpro_Way to Reinvent Yourself'
+                echo 'POLL Update'
                 sh 'python3 --version'
                 sh 'python3 pipeline.py'
             }
